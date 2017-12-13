@@ -1,12 +1,12 @@
 {
-    "name": "skycoin",
-    "productName": "Skycoin",
-    "author": "skycoin",
+    "name": "smartbuildcoin",
+    "productName": "Smartbuildcoin",
+    "author": "smartbuildcoin",
     "main": "src/electron-main.js",
     "version": "0.20.3",
-    "description": "skycoin wallet",
+    "description": "smartbuildcoin wallet",
     "build": {
-        "appId": "org.skycoin.skycoin",
+        "appId": "org.smartbuildcoin.smartbuildcoin",
         "nsis": {
             "oneClick": false,
             "allowToChangeInstallationDirectory": true
