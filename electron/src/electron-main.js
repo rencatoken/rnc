@@ -53,15 +53,15 @@ function startSkycoin() {
   var exe = (() => {
         switch (process.platform) {
   case 'darwin':
-    return path.join(appPath, '../../Resources/app/smartbuildcoin');
+    return path.join(appPath, '../../Resources/app/renca');
   case 'win32':
     // Use only the relative path on windows due to short path length
     // limits
-    return './resources/app/smartbuildcoin.exe';
+    return './resources/app/renca.exe';
   case 'linux':
-    return path.join(path.dirname(appPath), './resources/app/smartbuildcoin');
+    return path.join(path.dirname(appPath), './resources/app/renca');
   default:
-    return './resources/app/smartbuildcoin';
+    return './resources/app/renca';
   }
 })()
 
@@ -131,7 +131,7 @@ function createWindow(url) {
   win = new BrowserWindow({
     width: 1200,
     height: 900,
-    title: 'Smartbuildcoin',
+    title: 'Renca',
     nodeIntegration: false,
     webPreferences: {
       webgl: false,
@@ -166,9 +166,9 @@ function createWindow(url) {
 
   // create application's main menu
   var template = [{
-    label: "Smartbuildcoin",
+    label: "Renca",
     submenu: [
-      { label: "About Smartbuildcoin", selector: "orderFrontStandardAboutPanel:" },
+      { label: "About Renca", selector: "orderFrontStandardAboutPanel:" },
       { type: "separator" },
       { label: "Quit", accelerator: "Command+Q", click: function() { app.quit(); } }
     ]

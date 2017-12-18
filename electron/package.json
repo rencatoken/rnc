@@ -1,12 +1,12 @@
 {
-    "name": "smartbuildcoin",
-    "productName": "Smartbuildcoin",
-    "author": "smartbuildcoin",
+    "name": "renca",
+    "productName": "Renca",
+    "author": "renca",
     "main": "src/electron-main.js",
     "version": "0.20.3",
-    "description": "smartbuildcoin wallet",
+    "description": "renca wallet",
     "build": {
-        "appId": "org.smartbuildcoin.smartbuildcoin",
+        "appId": "org.renca.renca",
         "nsis": {
             "oneClick": false,
             "allowToChangeInstallationDirectory": true
