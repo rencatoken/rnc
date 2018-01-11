@@ -3,7 +3,7 @@
     "productName": "Renca",
     "author": "renca",
     "main": "src/electron-main.js",
-    "version": "0.20.3",
+    "version": "0.20.4",
     "description": "renca wallet",
     "build": {
         "appId": "org.renca.renca",
